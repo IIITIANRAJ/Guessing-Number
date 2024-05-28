@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.735);
+}
+.nbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+}
+.main > p{
+    margin-top: 15px;
+}
+.main .form{
+    margin-top: 20px;
+}
+#guess{
+    font-size: 2.5rem;
+}
+.guessField{
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 3px solid black;
+    text-align:center;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+.guessSubmit{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5%;
+    border: none;
+    background-color: black;
+    text-align:center;
+    font-size: 1rem;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.resultParas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.resultParas p{
+    margin-top: 10px;
+}
+#newGame{
+    color:#fefefe;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin:0px 5px;
+    background-color: blueviolet;
+}
